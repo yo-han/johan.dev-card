@@ -1,0 +1,27 @@
+{
+  "name": "johankuijt",
+  "version": "1.0.0",
+  "description": "Johan Kuijt terminal business card",
+  "main": "bin.js",
+  "bin": {
+    "johankuijt": "./bin.js",
+    "yo-han": "./bin.js"
+  },
+  "scripts": {
+    "start": "node bin.js"
+  },
+  "keywords": [
+    "cli",
+    "business-card",
+    "npx"
+  ],
+  "author": "Johan Kuijt <hello@johankuijt.com> (https://johankuijt.com)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
